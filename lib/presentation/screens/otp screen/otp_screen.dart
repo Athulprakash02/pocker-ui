@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:task/core/constants.dart';
 import 'package:task/presentation/screens/bottom_nav_bar.dart';
 import 'package:task/presentation/widgets/fitted_text.dart';
-import 'package:task/presentation/widgets/otp_textfeild.dart';
-import 'package:task/presentation/widgets/underlined_textbutton.dart';
+import 'package:task/presentation/screens/otp%20screen/widgets/otp_textfeild.dart';
+import 'package:task/presentation/screens/otp%20screen/underlined_textbutton.dart';
 
 class OTPScreen extends StatelessWidget {
   const OTPScreen({super.key});

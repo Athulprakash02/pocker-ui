@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:task/presentation/widgets/home_table.dart';
+import 'package:task/core/constants.dart';
+import 'package:task/presentation/screens/home%20screen/widgets/home_table.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -8,7 +9,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     Size size = MediaQuery.sizeOf(context);
     return Scaffold(
-      // backgroundColor: kWhiteColor,
+      backgroundColor: kWhiteColor,
       body: SafeArea(
           child: Padding(
         padding: const EdgeInsets.all(8.0),

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:task/core/constants.dart';
-import 'package:task/presentation/screens/otp_screen.dart';
+import 'package:task/presentation/screens/otp%20screen/otp_screen.dart';
 import 'package:task/presentation/widgets/fitted_text.dart';
-import 'package:task/presentation/widgets/login_text_feild.dart';
+import 'package:task/presentation/screens/login%20screen/widgets/login_text_feild.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});
